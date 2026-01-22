@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        TestClass test = new TestClass();
-        test.SayHello();
+        string card = CardPicker.PickCard();
+        Console.WriteLine(card);
     }
 }
